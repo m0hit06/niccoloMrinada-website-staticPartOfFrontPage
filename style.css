@@ -1,0 +1,597 @@
+@font-face {
+  font-family: Domain;
+  src: url(DomaineDispCondMedium.ttf);
+}
+@font-face {
+  font-family: canopee;
+  src: url(canopee.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  background-color: rgb(39, 38, 38);
+  overflow-x: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#page1 {
+  height: 130vh;
+  width: 100vw;
+  background-color: #c4bcb3;
+  position: relative;
+  overflow: hidden;
+}
+#nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  padding: 0px 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+#nav img {
+  height: 20px;
+  width: 30%;
+}
+
+#nav h5 {
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+}
+
+#nav i {
+  width: 30%;
+  text-align: right;
+}
+
+#element {
+  display: flex;
+  height: 430px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+#element1 {
+  width: 30%;
+  height: 100%;
+}
+#element2 {
+  width: 25%;
+  height: 100%;
+  border-left: 2px solid rgb(152, 148, 148);
+  border-right: 2px solid rgb(152, 148, 148);
+  text-align: center;
+  padding: 20px 30px;
+}
+#element3 {
+  width: 30%;
+  height: 100%;
+}
+#element-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+#element1 #element-img {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+#element3 #element-img {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+#element-img:hover img {
+  scale: 1.1;
+}
+
+#element1 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+
+#element1 h4 span {
+  font-size: 20px;
+  font-weight: 100;
+  background-color: rgb(183, 60, 18);
+  color: rgb(221, 205, 205);
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#element1 p {
+  font-size: 22px;
+  font-weight: 100;
+  font-family: Domain;
+  color: rgb(76, 72, 72);
+  text-align: justify;
+}
+
+#element3 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+
+#element3 h4 span {
+  font-size: 20px;
+  font-weight: 100;
+  background-color: rgb(183, 60, 18);
+  color: rgb(221, 205, 205);
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#element3 p {
+  font-size: 22px;
+  font-weight: 100;
+  font-family: Domain;
+  color: rgb(76, 72, 72);
+  text-align: justify;
+}
+
+#element2 h2 {
+  font-size: 60px;
+  font-family: canopee;
+}
+
+#element2 h3 {
+  font-size: 40px;
+  font-family: Domain;
+  font-weight: 100;
+  color: rgb(54, 52, 52);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#element2 h5 {
+  font-size: 15px;
+  color: rgb(76, 72, 72);
+}
+#element2 h5 span {
+  font-weight: bold;
+  color: black;
+  font-family: Domain;
+}
+
+#page1 h1 {
+  font-size: 580px;
+  letter-spacing: -25px;
+  background-color: rgb(28, 28, 25);
+  color: rgb(196, 188, 179);
+  font-family: canopee;
+  font-weight: 100;
+  line-height: 450px;
+  width: 96%;
+  margin-left: 2%;
+}
+
+#page2 {
+  height: 150vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page2-left {
+  height: 100%;
+  width: 40%;
+  margin: 60px 22px;
+  padding: 25px;
+  border-right: 2px solid rgb(152, 148, 148);
+}
+
+#page2-left h1 {
+  font-size: 110px;
+  font-family: canopee;
+  text-align: center;
+  line-height: 100px;
+  font-weight: 100;
+}
+#page2-left h1 span {
+  font-size: 130px;
+  font-weight: 500;
+}
+#page2-left img {
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-left p {
+  font-size: 38px;
+  margin-top: 20px;
+  font-family: domain;
+  color: rgb(83, 76, 76);
+}
+#page2-left p span {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 red;
+  font-size: 100px;
+  padding: 2px;
+  margin-right: 6px;
+  float: left;
+  font-family: canopee;
+}
+#page2-right {
+  height: 100%;
+  width: 60%;
+  margin: 60px 22px;
+  padding: 25px;
+}
+#page2-right img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-right h1 {
+  font-size: 100px;
+  font-weight: 100;
+  font-family: canopee;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#page3 {
+  height: 60vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+#page3 h1 {
+  font-size: 430px;
+  font-family: canopee;
+  letter-spacing: -5px;
+  color: rgb(196, 188, 179);
+  background-color: black;
+  padding: 30px;
+  line-height: 320px;
+  margin: 22px 0 40px 40px;
+}
+
+#page3 img {
+  margin-right: 22px;
+  height: 80%;
+  object-fit: cover;
+}
+
+#page4 {
+  height: 150vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page4-left {
+  width: 70%;
+  border-right: 2px solid rgb(152, 148, 148);
+  margin: 22px 22px;
+}
+#page4-left-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 22px;
+  height: 30%;
+}
+
+#page4-left-element1 {
+  width: 50%;
+  height: 30%;
+  border-right: 2px solid rgb(152, 148, 148);
+  text-align: center;
+  padding: 20px 30px;
+}
+#page4-left-element1 h2 {
+  font-size: 60px;
+  font-family: canopee;
+}
+#page4-left-element1 h3 {
+  font-size: 40px;
+  font-family: Domain;
+  font-weight: 100;
+  color: rgb(54, 52, 52);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#page4-left-element1 h5 {
+  font-size: 15px;
+  color: rgb(76, 72, 72);
+}
+#page4-left-element1 h5 span {
+  font-weight: bold;
+  color: black;
+  font-family: Domain;
+}
+#page4-left-element2 {
+  width: 50%;
+  height: 100%;
+  padding: 20px 30px;
+}
+#page4-left-element2 #page4-left-top-img {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+#page4-left-top-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+#page4-left-top-img:hover img {
+  scale: 1.1;
+}
+#page4-left-element2 h4 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: canopee;
+}
+#page4-left-element2 p {
+  font-size: 22px;
+  font-weight: 100;
+  font-family: Domain;
+  color: rgb(76, 72, 72);
+  text-align: justify;
+}
+#page4-left img {
+  width: 95%;
+  height: 60%;
+  padding: 22px 22px;
+}
+#page4-right {
+  width: 30%;
+  margin: 22px 22px;
+  text-align: left;
+}
+#page4-right h2 {
+  font-family: canopee;
+  font-weight: 500;
+  font-size: 100px;
+  letter-spacing: -5px;
+}
+#page4-right h2 span {
+  font-size: 170px;
+}
+#page4-right h3 {
+  font-family: domain;
+  font-size: 40px;
+  color: rgb(83, 76, 76);
+}
+#page4-right h3 span {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 red;
+  font-size: 80px;
+  padding: 2px;
+  margin-right: 6px;
+  float: left;
+  font-family: canopee;
+}
+#page4-right #circlePart {
+  height: 180px;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(92, 87, 87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.6s;
+}
+#circlePart {
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+#circlePart h1 {
+  font-size: 60px;
+  font-family: canopee;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-30%);
+  transition: all ease 0.6s;
+}
+#circlePart img {
+  height: 60px;
+  transform: translateX(-120%);
+  transition: all ease 0.6s;
+}
+
+#circlePart:hover img {
+  transform: translateX(50%);
+}
+#circlePart:hover h1 {
+  transform: translateX(140%);
+}
+#page5{
+  height: 30vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 22px;
+  border-top: 1px solid rgb(90, 80, 80);
+  border-bottom: 1px solid rgb(90, 80, 80);
+  font-family: canopee;
+  text-overflow: clip;
+}
+#page5 h4{
+   font-size: 40px;
+   font-weight: 100;
+}
+#page5 h4 span{
+     font-size: 180px;
+     float: right;
+}
+#page5 h2{
+   font-size: 80px;
+}
+#page6{
+  height: 100vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 22px;
+  font-family: canopee;   
+}
+#page6-left{
+  width: 50%;
+  height: 100%;
+}
+#page6-left #page6-left-top{
+  display: flex;
+  height: 45%;
+}
+#page6-left-top img{
+    width: 30%;
+    object-fit: cover;
+}
+#page6-left-top h1{
+   font-size: 420px;
+   line-height: 0.8;
+   color: rgb(27, 27, 25);
+}
+#page6-left h1{
+  height: 50%;
+ font-size: 420px;
+ color: rgb(27, 27, 25);
+}
+#page6-right{
+ width: 50%;
+ height: 100%;
+}
+#page6-right img{
+    height: 100%;
+    width: 100%;
+}
+#page7{
+  height: 100vh;
+  width: 100%;
+  background-color: #c4bcb3;
+  padding: 20px 22px;
+  font-family: canopee;   
+}
+#page7-top{
+  display: flex;
+  height: 40vh;;
+}
+#page7-top img{
+  width: 25%;
+  margin-right: 15px;
+  height: 41vh;
+  border: 1px solid black;
+  object-fit: cover;
+}
+#page7-top h1{
+  font-size: 420px;
+ color: rgb(27, 27, 25);
+ line-height: 0.76;
+ letter-spacing: -10px;
+}
+#page7-bottom{
+  display: flex;
+  height: 40vh;
+  margin-top: 4vh;
+}
+#page7-bottom h1{
+  font-size: 330px;
+  font-family: canopee;
+  letter-spacing: -5px;
+  color: rgb(196, 188, 179);
+  background-color: black;
+  padding: 30px;
+  line-height: 250px;
+  
+  
+}
+#page7-bottom p{
+  font-family: domain;
+  padding-left: 10px;
+  font-weight: 100;color: #51504e;
+  font-size: 28px;
+}
+#page7-bottom p span{
+   font-size: 120px;
+   font-weight: 400;
+   letter-spacing: -10px;
+   color: black;
+}
+#page9{
+  background-color: #c4bcb3;
+}
+#page10 {
+  background-color: #c4bcb3;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 30px 0;
+  white-space: nowrap;
+  overflow-y: auto;
+  overflow-y: hidden;
+
+}
+#page10::-webkit-scrollbar{
+    display: none;
+}
+#page10 h1 {
+  font-weight: 300;
+  font-size: 80px;
+  font-family: domain;
+  margin-right: 20px;
+  display: inline-block;
+  animation-timing-function: linear;
+  animation-name: Scroll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ 
+}
+#page10 h1 span {
+    background-color: #1c1c1a;
+    color: #c4bcb3;
+    font-size: 70px;
+    padding: 0 10px;
+    line-height: 30px;
+}
+@keyframes Scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+#page10:hover h1{
+    animation-play-state: paused;
+}
